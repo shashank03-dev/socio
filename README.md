@@ -42,27 +42,37 @@ To get a local copy of Sociio up and running on your desktop, follow these simpl
    flutter pub get
    ```
 
-3. **Run the application (Linux/Desktop):**
+3. **Run the application:**
+
+   #### 🐧 Linux
+
    ```bash
    flutter run -d linux
    ```
+
    _Note: Ensure you have the [Linux build prerequisites](https://docs.flutter.dev/get-started/install/linux#desktop-development-setup) installed._
+
+   #### 🪟 Windows
+
+   ```bash
+   flutter run -d windows
+   ```
+
+   _Note: Ensure you have [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) with the "Desktop development with C++" workload installed._
 
 ## 📂 Project Structure
 
 - `lib/main.dart`: The core application logic and UI.
 - `assets/images/`: Visual assets and icons.
-- `linux/`, `web/`: Platform-specific configuration and entry points.
+- `linux/`, `windows/`, `web/`: Platform-specific configuration.
 
 ## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
